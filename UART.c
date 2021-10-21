@@ -73,11 +73,11 @@ void UART1_Command_INT(void) {
 
                 if (rec_chars_recv == total_digits) {
 
-//                    LED_SetLow();
+                    LED_SetLow();
                     
                     __delay_ms(500);
                     
-//                    LED_SetHigh();
+                    LED_SetHigh();
                     
                     
                     
