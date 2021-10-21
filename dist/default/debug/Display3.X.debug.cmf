@@ -11,27 +11,27 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
+$C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 5 2
 $dist/default/debug\Display3.X.debug.o
 cinit CODE 0 7E2 7E2 1E 2
-text1 CODE 0 778 778 6A 2
-text2 CODE 0 6D0 6D0 5 2
-text3 CODE 0 709 709 F 2
-text4 CODE 0 6FC 6FC D 2
-text5 CODE 0 6E1 6E1 8 2
-text6 CODE 0 739 739 3F 2
-text7 CODE 0 6F2 6F2 A 2
-text8 CODE 0 718 718 21 2
-text9 CODE 0 6DB 6DB 6 2
+text1 CODE 0 774 774 6E 2
+text2 CODE 0 6CB 6CB 5 2
+text3 CODE 0 704 704 F 2
+text4 CODE 0 6F7 6F7 D 2
+text5 CODE 0 6DC 6DC 8 2
+text6 CODE 0 734 734 40 2
+text7 CODE 0 6ED 6ED A 2
+text8 CODE 0 713 713 21 2
+text9 CODE 0 6D6 6D6 6 2
 nvCOMMON COMMON 1 79 79 2 1
-text10 CODE 0 6CB 6CB 5 2
-text11 CODE 0 6D5 6D5 6 2
+text10 CODE 0 6C6 6C6 5 2
+text11 CODE 0 6D0 6D0 6 2
 nvBANK0 BANK0 1 29 29 4 1
-idataCOMMON CODE 0 6C8 6C8 3 2
-maintext CODE 0 6E9 6E9 9 2
+idataCOMMON CODE 0 6C3 6C3 3 2
+maintext CODE 0 6E4 6E4 9 2
 cstackCOMMON COMMON 1 7B 7B 2 1
 bssBANK0 BANK0 1 20 20 9 1
 dataCOMMON COMMON 1 76 76 3 1
@@ -79,9 +79,9 @@ BANK6 320-36F 1
 BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
-CONST 4-6C7 2
+CONST 4-6C2 2
 CONST 800-3FFF 2
-ENTRY 4-6C7 2
+ENTRY 4-6C2 2
 ENTRY 800-3FFF 2
 IDLOC 8000-8003 2
 SFR10 500-51F 1
@@ -139,7 +139,7 @@ SFR61 1E80-1EEF 1
 SFR62 1F00-1F6F 1
 SFR63 1F80-1FEF 1
 STACK 200D-27EF 1
-CODE 4-6C7 2
+CODE 4-6C2 2
 CODE 800-3FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -169,9 +169,9 @@ BANK24 C20-C6F 1
 BANK25 CA0-CBF 1
 BIGRAM 2000-27EF 1
 COMMON 7D-7D 1
-STRCODE 4-6C7 2
+STRCODE 4-6C2 2
 STRCODE 800-3FFF 2
-STRING 4-6C7 2
+STRING 4-6C2 2
 STRING 800-3FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -187,141 +187,143 @@ STRING 800-3FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/debug\Display3.X.debug.o
-7E2 cinit CODE >3998:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7E2 cinit CODE >4001:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7E2 cinit CODE >4042:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7E5 cinit CODE >4043:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7E6 cinit CODE >4044:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7E9 cinit CODE >4045:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7EA cinit CODE >4046:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7ED cinit CODE >4047:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7EE cinit CODE >4052:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7EF cinit CODE >4053:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F0 cinit CODE >4054:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F1 cinit CODE >4055:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F2 cinit CODE >4056:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F3 cinit CODE >4057:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F4 cinit CODE >4061:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F5 cinit CODE >4062:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F6 cinit CODE >4063:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F7 cinit CODE >4064:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F8 cinit CODE >4065:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7F9 cinit CODE >4066:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7FA cinit CODE >4067:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7FB cinit CODE >4068:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7FC cinit CODE >4069:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7FD cinit CODE >4075:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7FD cinit CODE >4077:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-7FE cinit CODE >4078:C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.s
-6D5 text11 CODE >174:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6D5 text11 CODE >175:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6DA text11 CODE >176:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6CB text10 CODE >166:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6CB text10 CODE >167:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6CF text10 CODE >168:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6DB text9 CODE >170:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6DB text9 CODE >171:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6E0 text9 CODE >172:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-718 text8 CODE >66:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-718 text8 CODE >71:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-71B text8 CODE >74:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-71D text8 CODE >77:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-71F text8 CODE >80:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-721 text8 CODE >83:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-722 text8 CODE >86:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-729 text8 CODE >87:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-730 text8 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-737 text8 CODE >90:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-738 text8 CODE >92:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6F2 text7 CODE >58:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6F2 text7 CODE >61:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6F5 text7 CODE >63:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6F6 text7 CODE >65:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6F7 text7 CODE >67:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6F9 text7 CODE >69:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6FA text7 CODE >71:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6FB text7 CODE >72:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-739 text6 CODE >55:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-739 text6 CODE >60:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-73B text6 CODE >61:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-73C text6 CODE >62:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-73D text6 CODE >63:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-73E text6 CODE >64:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-73F text6 CODE >69:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-741 text6 CODE >70:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-743 text6 CODE >71:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-745 text6 CODE >72:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-747 text6 CODE >73:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-749 text6 CODE >78:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-74C text6 CODE >79:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-74E text6 CODE >80:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-750 text6 CODE >81:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-752 text6 CODE >82:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-754 text6 CODE >87:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-755 text6 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-756 text6 CODE >89:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-757 text6 CODE >90:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-758 text6 CODE >91:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-759 text6 CODE >96:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-75A text6 CODE >97:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-75B text6 CODE >98:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-75C text6 CODE >99:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-75D text6 CODE >100:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-75E text6 CODE >105:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-760 text6 CODE >106:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-762 text6 CODE >107:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-764 text6 CODE >108:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-766 text6 CODE >109:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-768 text6 CODE >114:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-76A text6 CODE >115:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-76C text6 CODE >116:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-76E text6 CODE >117:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-770 text6 CODE >118:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-772 text6 CODE >127:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-774 text6 CODE >128:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-777 text6 CODE >129:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
-6E1 text5 CODE >74:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E1 text5 CODE >77:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E3 text5 CODE >79:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E4 text5 CODE >81:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E5 text5 CODE >83:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E6 text5 CODE >85:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E7 text5 CODE >87:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6E8 text5 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6FC text4 CODE >50:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6FC text4 CODE >52:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-6FF text4 CODE >53:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-702 text4 CODE >54:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-705 text4 CODE >55:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-708 text4 CODE >56:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
-709 text3 CODE >113:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-709 text3 CODE >115:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-709 text3 CODE >117:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-70E text3 CODE >119:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-70F text3 CODE >121:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-714 text3 CODE >125:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-715 text3 CODE >126:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-716 text3 CODE >129:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-717 text3 CODE >130:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6D0 text2 CODE >99:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6D0 text2 CODE >101:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-6D4 text2 CODE >102:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
-778 text1 CODE >24:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7E2 cinit CODE >4000:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7E2 cinit CODE >4003:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7E2 cinit CODE >4044:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7E5 cinit CODE >4045:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7E6 cinit CODE >4046:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7E9 cinit CODE >4047:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7EA cinit CODE >4048:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7ED cinit CODE >4049:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7EE cinit CODE >4054:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7EF cinit CODE >4055:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F0 cinit CODE >4056:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F1 cinit CODE >4057:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F2 cinit CODE >4058:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F3 cinit CODE >4059:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F4 cinit CODE >4063:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F5 cinit CODE >4064:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F6 cinit CODE >4065:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F7 cinit CODE >4066:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F8 cinit CODE >4067:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7F9 cinit CODE >4068:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7FA cinit CODE >4069:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7FB cinit CODE >4070:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7FC cinit CODE >4071:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7FD cinit CODE >4077:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7FD cinit CODE >4079:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+7FE cinit CODE >4080:C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.s
+6D0 text11 CODE >174:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6D0 text11 CODE >175:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6D5 text11 CODE >176:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6C6 text10 CODE >166:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6C6 text10 CODE >167:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6CA text10 CODE >168:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6D6 text9 CODE >170:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6D6 text9 CODE >171:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6DB text9 CODE >172:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+713 text8 CODE >66:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+713 text8 CODE >71:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+716 text8 CODE >74:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+718 text8 CODE >77:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+71A text8 CODE >80:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+71C text8 CODE >83:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+71D text8 CODE >86:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+724 text8 CODE >87:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+72B text8 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+732 text8 CODE >90:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+733 text8 CODE >92:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6ED text7 CODE >58:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6ED text7 CODE >61:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F0 text7 CODE >63:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F1 text7 CODE >65:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F2 text7 CODE >67:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F4 text7 CODE >69:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F5 text7 CODE >71:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F6 text7 CODE >72:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+734 text6 CODE >55:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+734 text6 CODE >60:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+737 text6 CODE >61:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+738 text6 CODE >62:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+739 text6 CODE >63:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+73A text6 CODE >64:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+73B text6 CODE >69:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+73D text6 CODE >70:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+73F text6 CODE >71:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+741 text6 CODE >72:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+743 text6 CODE >73:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+745 text6 CODE >78:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+748 text6 CODE >79:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+74A text6 CODE >80:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+74C text6 CODE >81:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+74E text6 CODE >82:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+750 text6 CODE >87:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+751 text6 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+752 text6 CODE >89:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+753 text6 CODE >90:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+754 text6 CODE >91:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+755 text6 CODE >96:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+756 text6 CODE >97:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+757 text6 CODE >98:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+758 text6 CODE >99:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+759 text6 CODE >100:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+75A text6 CODE >105:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+75C text6 CODE >106:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+75E text6 CODE >107:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+760 text6 CODE >108:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+762 text6 CODE >109:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+764 text6 CODE >114:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+766 text6 CODE >115:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+768 text6 CODE >116:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+76A text6 CODE >117:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+76C text6 CODE >118:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+76E text6 CODE >127:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+770 text6 CODE >128:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+773 text6 CODE >129:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/pin_manager.c
+6DC text5 CODE >74:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6DC text5 CODE >77:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6DE text5 CODE >79:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6DF text5 CODE >81:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6E0 text5 CODE >83:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6E1 text5 CODE >85:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6E2 text5 CODE >87:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6E3 text5 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F7 text4 CODE >50:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6F7 text4 CODE >52:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6FA text4 CODE >53:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+6FD text4 CODE >54:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+700 text4 CODE >55:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+703 text4 CODE >56:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/mcc.c
+704 text3 CODE >113:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+704 text3 CODE >115:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+704 text3 CODE >117:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+709 text3 CODE >119:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+70A text3 CODE >121:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+70F text3 CODE >125:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+710 text3 CODE >126:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+711 text3 CODE >129:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+712 text3 CODE >130:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6CB text2 CODE >99:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6CB text2 CODE >101:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+6CF text2 CODE >102:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\mcc_generated_files/eusart1.c
+774 text1 CODE >24:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+774 text1 CODE >25:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
 778 text1 CODE >25:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-77C text1 CODE >25:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-780 text1 CODE >27:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-786 text1 CODE >31:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-787 text1 CODE >34:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-78D text1 CODE >35:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-791 text1 CODE >36:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-792 text1 CODE >37:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-795 text1 CODE >43:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-79C text1 CODE >52:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-7A3 text1 CODE >61:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-7AA text1 CODE >70:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-7B2 text1 CODE >72:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-7B6 text1 CODE >74:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-7BD text1 CODE >78:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+77C text1 CODE >27:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+782 text1 CODE >31:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+783 text1 CODE >34:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+789 text1 CODE >35:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+78D text1 CODE >36:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+78E text1 CODE >37:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+791 text1 CODE >43:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+798 text1 CODE >52:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+79F text1 CODE >61:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7A6 text1 CODE >70:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7AE text1 CODE >72:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7B2 text1 CODE >74:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7B9 text1 CODE >76:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7BB text1 CODE >78:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
+7C6 text1 CODE >80:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
 7C8 text1 CODE >88:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
 7CB text1 CODE >93:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
 7CD text1 CODE >93:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
@@ -331,9 +333,9 @@ $dist/default/debug\Display3.X.debug.o
 7DB text1 CODE >93:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
 7DE text1 CODE >93:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
 7E1 text1 CODE >95:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\UART.c
-6E9 maintext CODE >51:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\main.c
-6E9 maintext CODE >54:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\main.c
-6EC maintext CODE >73:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\main.c
+6E4 maintext CODE >51:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\main.c
+6E4 maintext CODE >54:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\main.c
+6E7 maintext CODE >73:F:\_____SCaT\Systems\DisplayDriver\Display3.X\Display3.X\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -354,9 +356,9 @@ __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 10013 0 ABS 0 - -
 _rec_char_posn 72 0 COMMON 1 bssCOMMON dist/default/debug\Display3.X.debug.o
 EUSART1_SetErrorHandler@interruptHandler 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Display3.X.debug.o
-_EUSART1_Initialize E30 0 CODE 0 text8 dist/default/debug\Display3.X.debug.o
+_EUSART1_Initialize E26 0 CODE 0 text8 dist/default/debug\Display3.X.debug.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-_PMD_Initialize DC2 0 CODE 0 text5 dist/default/debug\Display3.X.debug.o
+_PMD_Initialize DB8 0 CODE 0 text5 dist/default/debug\Display3.X.debug.o
 __Hstrings 0 0 ABS 0 strings -
 _LATA 18 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _LATB 19 0 ABS 0 - dist/default/debug\Display3.X.debug.o
@@ -374,33 +376,33 @@ _WPUB 1F44 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _WPUC 1F4F 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _WPUD 1F5A 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _WPUE 1F65 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-___sp 0 0 STACK 2 stack C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-_main DD2 0 CODE 0 maintext dist/default/debug\Display3.X.debug.o
+___sp 0 0 STACK 2 stack C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+_main DC8 0 CODE 0 maintext dist/default/debug\Display3.X.debug.o
 _temp 74 0 COMMON 1 bssCOMMON dist/default/debug\Display3.X.debug.o
 btemp 7E 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-start 4 0 CODE 0 init C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
+start 4 0 CODE 0 init C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
 _rec_chars_recv 70 0 COMMON 1 bssCOMMON dist/default/debug\Display3.X.debug.o
-__end_of_EUSART1_is_rx_ready DAA 0 CODE 0 text2 dist/default/debug\Display3.X.debug.o
+__end_of_EUSART1_is_rx_ready DA0 0 CODE 0 text2 dist/default/debug\Display3.X.debug.o
 __size_of_main 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 __Hpowerup 0 0 CODE 0 powerup -
 __LnvCOMMON 0 0 ABS 0 nvCOMMON -
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __HdataCOMMON 0 0 ABS 0 dataCOMMON -
-intlevel0 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
 __size_of_EUSART1_SetErrorHandler 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 wtemp0 7E 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __Hfunctab 0 0 ENTRY 0 functab -
 _RC1STAbits 11D 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-__end_of_PMD_Initialize DD2 0 CODE 0 text5 dist/default/debug\Display3.X.debug.o
+__end_of_PMD_Initialize DC8 0 CODE 0 text5 dist/default/debug\Display3.X.debug.o
 __Hclrtext 0 0 ABS 0 clrtext -
-__pidataCOMMON D90 0 CODE 0 idataCOMMON dist/default/debug\Display3.X.debug.o
+__pidataCOMMON D86 0 CODE 0 idataCOMMON dist/default/debug\Display3.X.debug.o
 _ANSELA 1F38 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _ANSELB 1F43 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _ANSELC 1F4E 0 ABS 0 - dist/default/debug\Display3.X.debug.o
@@ -415,11 +417,11 @@ _INLVLB 1F47 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _INLVLC 1F52 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _INLVLD 1F5D 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _INLVLE 1F68 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-___stackhi 27EF 0 ABS 0 - C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
-___stacklo 200D 0 ABS 0 - C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
+___stackhi 27EF 0 ABS 0 - C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
+___stacklo 200D 0 ABS 0 - C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
 __LidataCOMMON 0 0 ABS 0 idataCOMMON -
 __HnvCOMMON 0 0 ABS 0 nvCOMMON -
-_PIN_MANAGER_Initialize E72 0 CODE 0 text6 dist/default/debug\Display3.X.debug.o
+_PIN_MANAGER_Initialize E68 0 CODE 0 text6 dist/default/debug\Display3.X.debug.o
 __size_of_UART1_Command_INT 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 start_initialization FC4 0 CODE 0 cinit dist/default/debug\Display3.X.debug.o
 _eusart1RxLastError 75 0 COMMON 1 bssCOMMON dist/default/debug\Display3.X.debug.o
@@ -432,13 +434,13 @@ _OSCFRQ 893 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _RC1REG 119 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _RC1STA 11D 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _RC6PPS 1F26 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-__end_of_SYSTEM_Initialize E12 0 CODE 0 text4 dist/default/debug\Display3.X.debug.o
+__end_of_SYSTEM_Initialize E08 0 CODE 0 text4 dist/default/debug\Display3.X.debug.o
 _TX1REG 11A 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _TX1STA 11E 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __size_of_EUSART1_Initialize 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-___int_sp 0 0 STACK 2 stack C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
+___int_sp 0 0 STACK 2 stack C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -671,16 +673,16 @@ __S2 0 0 ABS 0 - -
 _EUSART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __pnvCOMMON 79 0 COMMON 1 nvCOMMON dist/default/debug\Display3.X.debug.o
 __HidataCOMMON 0 0 ABS 0 idataCOMMON -
-_SYSTEM_Initialize DF8 0 CODE 0 text4 dist/default/debug\Display3.X.debug.o
+_SYSTEM_Initialize DEE 0 CODE 0 text4 dist/default/debug\Display3.X.debug.o
 __end_of_UART1_Command_INT FC4 0 CODE 0 text1 dist/default/debug\Display3.X.debug.o
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 4 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\G_J_C\AppData\Local\Temp\xcAsghg.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\G_J_C\AppData\Local\Temp\xcAs58k.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __size_of_PMD_Initialize 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-__ptext10 D96 0 CODE 0 text10 dist/default/debug\Display3.X.debug.o
-__ptext11 DAA 0 CODE 0 text11 dist/default/debug\Display3.X.debug.o
-__end_of_PIN_MANAGER_Initialize EF0 0 CODE 0 text6 dist/default/debug\Display3.X.debug.o
+__ptext10 D8C 0 CODE 0 text10 dist/default/debug\Display3.X.debug.o
+__ptext11 DA0 0 CODE 0 text11 dist/default/debug\Display3.X.debug.o
+__end_of_PIN_MANAGER_Initialize EE8 0 CODE 0 text6 dist/default/debug\Display3.X.debug.o
 _EUSART1_ErrorHandler 29 0 BANK0 1 nvBANK0 dist/default/debug\Display3.X.debug.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
@@ -736,15 +738,16 @@ __Lbank60 0 0 BANK60 1 bank60 -
 __Lbank61 0 0 BANK61 1 bank61 -
 __Lbank62 0 0 BANK62 1 bank62 -
 __Lbank63 0 0 BANK63 1 bank63 -
-__pmaintext DD2 0 CODE 0 maintext dist/default/debug\Display3.X.debug.o
+__pmaintext DC8 0 CODE 0 maintext dist/default/debug\Display3.X.debug.o
 __Lbigram 0 0 ABS 0 bigram -
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
-_EUSART1_SetErrorHandler DAA 0 CODE 0 text11 dist/default/debug\Display3.X.debug.o
-_EUSART1_Read E12 0 CODE 0 text3 dist/default/debug\Display3.X.debug.o
-__end_of_EUSART1_SetErrorHandler DB6 0 CODE 0 text11 dist/default/debug\Display3.X.debug.o
-__end_of_EUSART1_SetFramingErrorHandler DA0 0 CODE 0 text10 dist/default/debug\Display3.X.debug.o
-__end_of_EUSART1_SetOverrunErrorHandler DC2 0 CODE 0 text9 dist/default/debug\Display3.X.debug.o
+_LATEbits 1C 0 ABS 0 - dist/default/debug\Display3.X.debug.o
+_EUSART1_SetErrorHandler DA0 0 CODE 0 text11 dist/default/debug\Display3.X.debug.o
+_EUSART1_Read E08 0 CODE 0 text3 dist/default/debug\Display3.X.debug.o
+__end_of_EUSART1_SetErrorHandler DAC 0 CODE 0 text11 dist/default/debug\Display3.X.debug.o
+__end_of_EUSART1_SetFramingErrorHandler D96 0 CODE 0 text10 dist/default/debug\Display3.X.debug.o
+__end_of_EUSART1_SetOverrunErrorHandler DB8 0 CODE 0 text9 dist/default/debug\Display3.X.debug.o
 _OSCCON1 88D 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _OSCCON3 88F 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _OSCSTAT 890 0 ABS 0 - dist/default/debug\Display3.X.debug.o
@@ -758,7 +761,7 @@ __pbssCOMMON 70 0 COMMON 1 bssCOMMON dist/default/debug\Display3.X.debug.o
 _PIR3bits 70F 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __Lend_init 4 0 CODE 0 end_init -
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-_UART1_Command_INT EF0 0 CODE 0 text1 dist/default/debug\Display3.X.debug.o
+_UART1_Command_INT EE8 0 CODE 0 text1 dist/default/debug\Display3.X.debug.o
 end_of_initialization FFA 0 CODE 0 cinit dist/default/debug\Display3.X.debug.o
 __Hintentry 4 0 CODE 0 intentry -
 _TX1STAbits 11E 0 ABS 0 - dist/default/debug\Display3.X.debug.o
@@ -767,20 +770,20 @@ __size_of_EUSART1_Read 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __Hreset_vec 4 0 CODE 0 reset_vec -
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __size_of_EUSART1_is_rx_ready 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-__ptext1 EF0 0 CODE 0 text1 dist/default/debug\Display3.X.debug.o
-__ptext2 DA0 0 CODE 0 text2 dist/default/debug\Display3.X.debug.o
-__ptext3 E12 0 CODE 0 text3 dist/default/debug\Display3.X.debug.o
-__ptext4 DF8 0 CODE 0 text4 dist/default/debug\Display3.X.debug.o
-__ptext5 DC2 0 CODE 0 text5 dist/default/debug\Display3.X.debug.o
-__ptext6 E72 0 CODE 0 text6 dist/default/debug\Display3.X.debug.o
-__ptext7 DE4 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
-__ptext8 E30 0 CODE 0 text8 dist/default/debug\Display3.X.debug.o
-__ptext9 DB6 0 CODE 0 text9 dist/default/debug\Display3.X.debug.o
+__ptext1 EE8 0 CODE 0 text1 dist/default/debug\Display3.X.debug.o
+__ptext2 D96 0 CODE 0 text2 dist/default/debug\Display3.X.debug.o
+__ptext3 E08 0 CODE 0 text3 dist/default/debug\Display3.X.debug.o
+__ptext4 DEE 0 CODE 0 text4 dist/default/debug\Display3.X.debug.o
+__ptext5 DB8 0 CODE 0 text5 dist/default/debug\Display3.X.debug.o
+__ptext6 E68 0 CODE 0 text6 dist/default/debug\Display3.X.debug.o
+__ptext7 DDA 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
+__ptext8 E26 0 CODE 0 text8 dist/default/debug\Display3.X.debug.o
+__ptext9 DAC 0 CODE 0 text9 dist/default/debug\Display3.X.debug.o
 _RX1DTPPS 1ECB 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _input_arr 20 0 BANK0 1 bssBANK0 dist/default/debug\Display3.X.debug.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_EUSART1_Read E30 0 CODE 0 text3 dist/default/debug\Display3.X.debug.o
+__end_of_EUSART1_Read E26 0 CODE 0 text3 dist/default/debug\Display3.X.debug.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
 _SLRCONA 1F3B 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _SLRCONB 1F46 0 ABS 0 - dist/default/debug\Display3.X.debug.o
@@ -792,12 +795,12 @@ __Lfunctab 0 0 ENTRY 0 functab -
 _SP1BRGH 11C 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _SP1BRGL 11B 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __Lclrtext 0 0 ABS 0 clrtext -
-_EUSART1_is_rx_ready DA0 0 CODE 0 text2 dist/default/debug\Display3.X.debug.o
+_EUSART1_is_rx_ready D96 0 CODE 0 text2 dist/default/debug\Display3.X.debug.o
 __pcstackCOMMON 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Display3.X.debug.o
 __Hend_init 8 0 CODE 0 end_init -
-_EUSART1_SetFramingErrorHandler D96 0 CODE 0 text10 dist/default/debug\Display3.X.debug.o
-_EUSART1_SetOverrunErrorHandler DB6 0 CODE 0 text9 dist/default/debug\Display3.X.debug.o
-__end_of_main DE4 0 CODE 0 maintext dist/default/debug\Display3.X.debug.o
+_EUSART1_SetFramingErrorHandler D8C 0 CODE 0 text10 dist/default/debug\Display3.X.debug.o
+_EUSART1_SetOverrunErrorHandler DAC 0 CODE 0 text9 dist/default/debug\Display3.X.debug.o
+__end_of_main DDA 0 CODE 0 maintext dist/default/debug\Display3.X.debug.o
 _OSCEN 891 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _TRISA 12 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 _TRISB 13 0 ABS 0 - dist/default/debug\Display3.X.debug.o
@@ -807,13 +810,13 @@ _TRISE 16 0 ABS 0 - dist/default/debug\Display3.X.debug.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/debug\Display3.X.debug.o
-__end_of_EUSART1_Initialize E72 0 CODE 0 text8 dist/default/debug\Display3.X.debug.o
-__end_of_OSCILLATOR_Initialize DF8 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
+__end_of_EUSART1_Initialize E68 0 CODE 0 text8 dist/default/debug\Display3.X.debug.o
+__end_of_OSCILLATOR_Initialize DEE 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
 __initialization FC4 0 CODE 0 cinit dist/default/debug\Display3.X.debug.o
 __pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/debug\Display3.X.debug.o
 __pdataCOMMON 76 0 COMMON 1 dataCOMMON dist/default/debug\Display3.X.debug.o
 EUSART1_SetOverrunErrorHandler@interruptHandler 7B 0 COMMON 1 cstackCOMMON dist/default/debug\Display3.X.debug.o
-_OSCILLATOR_Initialize DE4 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
+_OSCILLATOR_Initialize DDA 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -840,19 +843,19 @@ _OSCILLATOR_Initialize DE4 0 CODE 0 text7 dist/default/debug\Display3.X.debug.o
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 7E2 FC4 1E 2
-text1 0 778 EF0 6A 2
-text2 0 6D0 DA0 5 2
-text3 0 709 E12 F 2
-text4 0 6FC DF8 D 2
-text5 0 6E1 DC2 8 2
-text6 0 739 E72 3F 2
-text7 0 6F2 DE4 A 2
-text8 0 718 E30 21 2
-text9 0 6DB DB6 6 2
-text10 0 6CB D96 5 2
-text11 0 6D5 DAA 6 2
-idataCOMMON 0 6C8 D90 3 2
-maintext 0 6E9 DD2 9 2
+text1 0 774 EE8 6E 2
+text2 0 6CB D96 5 2
+text3 0 704 E08 F 2
+text4 0 6F7 DEE D 2
+text5 0 6DC DB8 8 2
+text6 0 734 E68 40 2
+text7 0 6ED DDA A 2
+text8 0 713 E26 21 2
+text9 0 6D6 DAC 6 2
+text10 0 6C6 D8C 5 2
+text11 0 6D0 DA0 6 2
+idataCOMMON 0 6C3 D86 3 2
+maintext 0 6E4 DC8 9 2
 reset_vec 0 0 0 4 2
 bssBANK0 1 20 20 D 1
 bssCOMMON 1 70 70 D 1
