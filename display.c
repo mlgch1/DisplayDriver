@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "spi1.h"
+#include "mcc_generated_files/spi1.h"
 
 void display(char*);
 
@@ -28,7 +28,7 @@ void display(char *p_input_arr){
     
     for(i = 0; i < 9; ++i){
         
-    SPI1_ExchangeByte(p_input_arr[i]); 
+        SPI1_ExchangeByte(p_input_arr[i]); 
 
         __delay_ms(100);
 

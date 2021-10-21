@@ -1,7 +1,7 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
-"70 ./mcc_generated_files/mcc.h
-[; ;./mcc_generated_files/mcc.h: 70: void SYSTEM_Initialize(void);
+"71 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 71: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
 "45 main.c
 [; ;main.c: 45: void UART1_Command_INT(void);

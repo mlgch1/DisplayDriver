@@ -83,7 +83,7 @@ void UART1_Command_INT(void) {
                     
                     
                     
-//                    display(input_arr);
+                    display(input_arr);
 
                     rec_chars_recv = 0;
                     rec_char_posn = 0;

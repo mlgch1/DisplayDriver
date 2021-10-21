@@ -23,6 +23,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "12 C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\builtins.h
 [v __delay `JF183 ~T0 @X0 0 e ]
 [p i __delay ]
+"21 UART.c
+[; ;UART.c: 21: void display(char[]);
+[v _display `(v ~T0 @X0 0 ef1`*uc ]
 "111 C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h
 [; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 111: __asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
@@ -1332,6 +1335,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = . . _LATEbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1051 ]
+"86
+[; ;UART.c: 86:                     display(input_arr);
+[e ( _display (1 &U _input_arr ]
 "88
 [; ;UART.c: 88:                     rec_chars_recv = 0;
 [e = _rec_chars_recv -> 0 `i ]

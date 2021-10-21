@@ -8,10 +8,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 "17 UART.c
 [; ;UART.c: 17: extern int total_digits;
 [v _total_digits `i ~T0 @X0 0 e ]
+"1273 C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h
+[; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 1273:     struct {
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . LATE0 LATE1 LATE2 ]
+"1272
+[; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 1272: typedef union {
+[u S60 `S61 1 ]
+[n S60 . . ]
+"1279
+[; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 1279: extern volatile LATEbits_t LATEbits __attribute__((address(0x01C)));
+[v _LATEbits `VS60 ~T0 @X0 0 e@28 ]
 [v F183 `(v ~T0 @X0 1 tf1`ul ]
 "12 C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\builtins.h
 [v __delay `JF183 ~T0 @X0 0 e ]
 [p i __delay ]
+"21 UART.c
+[; ;UART.c: 21: void display(char[]);
+[v _display `(v ~T0 @X0 0 ef1`*uc ]
 "111 C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h
 [; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 111: __asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
@@ -1304,9 +1318,26 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;UART.c: 74:                 if (rec_chars_recv == total_digits) {
 [e $ ! == _rec_chars_recv _total_digits 1046  ]
 {
+"76
+[; ;UART.c: 76:                     do { LATEbits.LATE0 = 0; } while(0);
+[e :U 1049 ]
+{
+[e = . . _LATEbits 0 0 -> -> 0 `i `uc ]
+}
+[e :U 1048 ]
 "78
 [; ;UART.c: 78:                     _delay((unsigned long)((500)*(4000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"80
+[; ;UART.c: 80:                     do { LATEbits.LATE0 = 1; } while(0);
+[e :U 1052 ]
+{
+[e = . . _LATEbits 0 0 -> -> 1 `i `uc ]
+}
+[e :U 1051 ]
+"86
+[; ;UART.c: 86:                     display(input_arr);
+[e ( _display (1 &U _input_arr ]
 "88
 [; ;UART.c: 88:                     rec_chars_recv = 0;
 [e = _rec_chars_recv -> 0 `i ]
