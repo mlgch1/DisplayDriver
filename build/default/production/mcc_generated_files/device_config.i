@@ -7,7 +7,7 @@
 # 1 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/device_config.c" 2
-# 50 "mcc_generated_files/device_config.c"
+# 11 "mcc_generated_files/device_config.c"
 #pragma config FEXTOSC = OFF
 #pragma config RSTOSC = HFINT1
 #pragma config CLKOUTEN = OFF
@@ -42,5 +42,5 @@
 
 
 #pragma config CP = OFF
-# 83 "mcc_generated_files/device_config.c"
+# 44 "mcc_generated_files/device_config.c"
 

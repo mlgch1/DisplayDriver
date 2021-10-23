@@ -7,9 +7,9 @@
 # 1 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/eusart1.c" 2
-# 50 "mcc_generated_files/eusart1.c"
+# 11 "mcc_generated_files/eusart1.c"
 # 1 "mcc_generated_files/eusart1.h" 1
-# 54 "mcc_generated_files/eusart1.h"
+# 15 "mcc_generated_files/eusart1.h"
 # 1 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -13287,10 +13287,10 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\xc.h" 2 3
-# 54 "mcc_generated_files/eusart1.h" 2
+# 15 "mcc_generated_files/eusart1.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdbool.h" 1 3
-# 55 "mcc_generated_files/eusart1.h" 2
+# 16 "mcc_generated_files/eusart1.h" 2
 
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 1 3
@@ -13431,8 +13431,8 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 57 "mcc_generated_files/eusart1.h" 2
-# 76 "mcc_generated_files/eusart1.h"
+# 18 "mcc_generated_files/eusart1.h" 2
+# 30 "mcc_generated_files/eusart1.h"
 typedef union {
     struct {
         unsigned perr : 1;
@@ -13442,27 +13442,27 @@ typedef union {
     };
     uint8_t status;
 }eusart1_status_t;
-# 111 "mcc_generated_files/eusart1.h"
+# 65 "mcc_generated_files/eusart1.h"
 void EUSART1_Initialize(void);
-# 159 "mcc_generated_files/eusart1.h"
+# 113 "mcc_generated_files/eusart1.h"
 _Bool EUSART1_is_tx_ready(void);
-# 207 "mcc_generated_files/eusart1.h"
+# 161 "mcc_generated_files/eusart1.h"
 _Bool EUSART1_is_rx_ready(void);
-# 254 "mcc_generated_files/eusart1.h"
+# 208 "mcc_generated_files/eusart1.h"
 _Bool EUSART1_is_tx_done(void);
-# 302 "mcc_generated_files/eusart1.h"
+# 256 "mcc_generated_files/eusart1.h"
 eusart1_status_t EUSART1_get_last_status(void);
-# 322 "mcc_generated_files/eusart1.h"
+# 276 "mcc_generated_files/eusart1.h"
 uint8_t EUSART1_Read(void);
-# 342 "mcc_generated_files/eusart1.h"
+# 296 "mcc_generated_files/eusart1.h"
 void EUSART1_Write(uint8_t txData);
-# 362 "mcc_generated_files/eusart1.h"
+# 314 "mcc_generated_files/eusart1.h"
 void EUSART1_SetFramingErrorHandler(void (* interruptHandler)(void));
-# 380 "mcc_generated_files/eusart1.h"
+# 332 "mcc_generated_files/eusart1.h"
 void EUSART1_SetOverrunErrorHandler(void (* interruptHandler)(void));
-# 398 "mcc_generated_files/eusart1.h"
+# 350 "mcc_generated_files/eusart1.h"
 void EUSART1_SetErrorHandler(void (* interruptHandler)(void));
-# 50 "mcc_generated_files/eusart1.c" 2
+# 11 "mcc_generated_files/eusart1.c" 2
 
 
 volatile eusart1_status_t eusart1RxLastError;

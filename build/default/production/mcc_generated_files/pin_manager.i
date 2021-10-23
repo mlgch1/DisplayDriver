@@ -7,9 +7,15 @@
 # 1 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "mcc_generated_files/pin_manager.c" 2
-# 49 "mcc_generated_files/pin_manager.c"
+
+
+
+
+
+
+
 # 1 "mcc_generated_files/pin_manager.h" 1
-# 54 "mcc_generated_files/pin_manager.h"
+# 15 "mcc_generated_files/pin_manager.h"
 # 1 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -13287,16 +13293,12 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\\pic\\include\\xc.h" 2 3
-# 54 "mcc_generated_files/pin_manager.h" 2
-# 134 "mcc_generated_files/pin_manager.h"
+# 15 "mcc_generated_files/pin_manager.h" 2
+# 139 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 146 "mcc_generated_files/pin_manager.h"
+# 151 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 49 "mcc_generated_files/pin_manager.c" 2
-
-
-
-
+# 8 "mcc_generated_files/pin_manager.c" 2
 
 
 void PIN_MANAGER_Initialize(void)
@@ -13305,26 +13307,26 @@ void PIN_MANAGER_Initialize(void)
 
 
     LATE = 0x01;
-    LATD = 0x00;
+    LATD = 0x80;
     LATA = 0x00;
     LATB = 0x00;
-    LATC = 0x00;
+    LATC = 0x0A;
 
 
 
 
     TRISE = 0x0E;
     TRISA = 0xFF;
-    TRISB = 0xFF;
-    TRISC = 0xA7;
-    TRISD = 0xFF;
+    TRISB = 0xF5;
+    TRISC = 0xAF;
+    TRISD = 0x7F;
 
 
 
 
     ANSELD = 0xFF;
-    ANSELC = 0x77;
-    ANSELB = 0xFF;
+    ANSELC = 0x75;
+    ANSELB = 0xFC;
     ANSELE = 0x06;
     ANSELA = 0xFF;
 
@@ -13363,11 +13365,12 @@ void PIN_MANAGER_Initialize(void)
     INLVLC = 0xFF;
     INLVLD = 0xFF;
     INLVLE = 0x0F;
-# 127 "mcc_generated_files/pin_manager.c"
-    SSP1CLKPPS = 0x13;
-    RC3PPS = 0x15;
+
+    SSP2DATPPS = 0x08;
+    RB1PPS = 0x17;
+    RB3PPS = 0x18;
     RC6PPS = 0x0F;
-    SSP1DATPPS = 0x13;
+    SSP2CLKPPS = 0x09;
     RX1DTPPS = 0x17;
 }
 

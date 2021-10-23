@@ -1,47 +1,8 @@
 /**
-  EUSART1 Generated Driver API Header File
-
-  @Company
-    Microchip Technology Inc.
 
   @File Name
     eusart1.h
 
-  @Summary
-    This is the generated header file for the EUSART1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
-
-  @Description
-    This header file provides APIs for driver for EUSART1.
-    Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.7
-        Device            :  PIC16F15376
-        Driver Version    :  2.1.1
-    The generated drivers are tested against the following:
-        Compiler          :  XC8 2.31 and above
-        MPLAB 	          :  MPLAB X 5.45
-*/
-
-/*
-    (c) 2018 Microchip Technology Inc. and its subsidiaries. 
-    
-    Subject to your compliance with these terms, you may use Microchip software and any 
-    derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
-    license terms applicable to your use of third party software (including open source software) that 
-    may accompany Microchip software.
-    
-    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
-    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
-    IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
-    FOR A PARTICULAR PURPOSE.
-    
-    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
-    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
-    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
-    HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
-    THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
-    CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
-    OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
-    SOFTWARE.
 */
 
 #ifndef EUSART1_H
@@ -55,13 +16,6 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
-
-#ifdef __cplusplus  // Provide C++ Compatibility
-
-    extern "C" {
-
-#endif
-
 
 /**
   Section: Macro Declarations
@@ -88,7 +42,7 @@ typedef union {
   Section: EUSART1 APIs
 */
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Initialization routine that takes inputs from the EUSART1 GUI.
 
@@ -110,7 +64,7 @@ typedef union {
 */
 void EUSART1_Initialize(void);
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Checks if the EUSART1 transmitter is ready to transmit data
 
@@ -158,7 +112,7 @@ void EUSART1_Initialize(void);
 */
 bool EUSART1_is_tx_ready(void);
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Checks if the EUSART1 receiver ready for reading
 
@@ -206,7 +160,7 @@ bool EUSART1_is_tx_ready(void);
 */
 bool EUSART1_is_rx_ready(void);
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Checks if EUSART1 data is transmitted
 
@@ -253,7 +207,7 @@ bool EUSART1_is_rx_ready(void);
 */
 bool EUSART1_is_tx_done(void);
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Gets the error status of the last read byte.
 
@@ -301,7 +255,7 @@ bool EUSART1_is_tx_done(void);
  */
 eusart1_status_t EUSART1_get_last_status(void);
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Read a byte of data from the EUSART1.
 
@@ -341,9 +295,7 @@ uint8_t EUSART1_Read(void);
 */
 void EUSART1_Write(uint8_t txData);
 
-
-
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Set EUSART1 Framing Error Handler
 
@@ -361,7 +313,7 @@ void EUSART1_Write(uint8_t txData);
 */
 void EUSART1_SetFramingErrorHandler(void (* interruptHandler)(void));
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Set EUSART1 Overrun Error Handler
 
@@ -379,7 +331,7 @@ void EUSART1_SetFramingErrorHandler(void (* interruptHandler)(void));
 */
 void EUSART1_SetOverrunErrorHandler(void (* interruptHandler)(void));
 
-/**
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   @Summary
     Set EUSART1 Error Handler
 
@@ -396,14 +348,6 @@ void EUSART1_SetOverrunErrorHandler(void (* interruptHandler)(void));
     None
 */
 void EUSART1_SetErrorHandler(void (* interruptHandler)(void));
-
-
-
-#ifdef __cplusplus  // Provide C++ Compatibility
-
-    }
-
-#endif
 
 #endif  // EUSART1_H
 /**

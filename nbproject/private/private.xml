@@ -3,12 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/spi2.h</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/pin_manager.c</file>
             <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/main.c</file>
             <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/eusart1.h</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/device_config.h</file>
             <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/eusart1.c</file>
-            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/UART.c</file>
-            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/spi1.c</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/pin_manager.h</file>
             <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/display.c</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/mcc.c</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/device_config.c</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/mcc.h</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/UART.c</file>
+            <file>file:/F:/_____SCaT/Systems/DisplayDriver/Display3.X/Display3.X/mcc_generated_files/spi2.c</file>
         </group>
     </open-files>
 </project-private>

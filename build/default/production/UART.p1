@@ -2,8 +2,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22 UART.c
 [; ;UART.c: 22: _Bool EUSART1_is_rx_ready(void);
 [v _EUSART1_is_rx_ready `(a ~T0 @X0 0 ef ]
-"322 ./mcc_generated_files/eusart1.h
-[; ;./mcc_generated_files/eusart1.h: 322: uint8_t EUSART1_Read(void);
+"276 ./mcc_generated_files/eusart1.h
+[; ;./mcc_generated_files/eusart1.h: 276: uint8_t EUSART1_Read(void);
 [v _EUSART1_Read `(uc ~T0 @X0 0 ef ]
 "17 UART.c
 [; ;UART.c: 17: extern int total_digits;
@@ -1326,8 +1326,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 1048 ]
 "78
-[; ;UART.c: 78:                     _delay((unsigned long)((500)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;UART.c: 78:                     _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "80
 [; ;UART.c: 80:                     do { LATEbits.LATE0 = 1; } while(0);
 [e :U 1052 ]
@@ -1335,24 +1335,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = . . _LATEbits 0 0 -> -> 1 `i `uc ]
 }
 [e :U 1051 ]
-"86
-[; ;UART.c: 86:                     display(input_arr);
+"82
+[; ;UART.c: 82:                     display(input_arr);
 [e ( _display (1 &U _input_arr ]
-"88
-[; ;UART.c: 88:                     rec_chars_recv = 0;
+"84
+[; ;UART.c: 84:                     rec_chars_recv = 0;
 [e = _rec_chars_recv -> 0 `i ]
-"89
-[; ;UART.c: 89:                     rec_char_posn = 0;
+"85
+[; ;UART.c: 85:                     rec_char_posn = 0;
 [e = _rec_char_posn -> 0 `i ]
-"91
-[; ;UART.c: 91:                 }
+"87
+[; ;UART.c: 87:                 }
 }
 [e :U 1046 ]
-"92
-[; ;UART.c: 92:             }
+"88
+[; ;UART.c: 88:             }
 }
-"93
-[; ;UART.c: 93:         }
+"89
+[; ;UART.c: 89:         }
 }
 [e $U 1031  ]
 [e :U 1032 ]
@@ -1363,11 +1363,11 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 4 `i 1045
  1031 ]
 [e :U 1031 ]
-"94
-[; ;UART.c: 94:     }
+"90
+[; ;UART.c: 90:     }
 }
 [e :U 1030 ]
-"95
-[; ;UART.c: 95: }
+"91
+[; ;UART.c: 91: }
 [e :UE 1029 ]
 }

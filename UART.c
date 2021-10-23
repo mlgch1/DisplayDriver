@@ -75,13 +75,9 @@ void UART1_Command_INT(void) {
 
                     LED_SetLow();
                     
-                    __delay_ms(500);
+                    __delay_ms(100);
                     
                     LED_SetHigh();
-                    
-                    
-                    
-                    
                     
                     display(input_arr);
 

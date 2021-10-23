@@ -1,10 +1,10 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
-"71 ./mcc_generated_files/mcc.h
-[; ;./mcc_generated_files/mcc.h: 71: void SYSTEM_Initialize(void);
+"32 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 32: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"45 main.c
-[; ;main.c: 45: void UART1_Command_INT(void);
+"9 main.c
+[; ;main.c: 9: void UART1_Command_INT(void);
 [v _UART1_Command_INT `(v ~T0 @X0 0 ef ]
 "111 C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h
 [; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 111: __asm("INDF0 equ 00h");
@@ -1113,40 +1113,40 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22557
 [; ;C:/Users/G_J_C/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.8.149/xc8\pic\include\proc\pic16f15376.h: 22557: __asm("TOSH equ 01FEFh");
 [; <" TOSH equ 01FEFh ;# ">
-"46 main.c
-[; ;main.c: 46: int total_digits = 9;
+"10 main.c
+[; ;main.c: 10: int total_digits = 9;
 [v _total_digits `i ~T0 @X0 1 e ]
 [i _total_digits
 -> 9 `i
 ]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"51
-[; ;main.c: 51: void main(void)
+"15
+[; ;main.c: 15: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"52
-[; ;main.c: 52: {
+"16
+[; ;main.c: 16: {
 {
 [e :U _main ]
 [f ]
-"54
-[; ;main.c: 54:     SYSTEM_Initialize();
+"18
+[; ;main.c: 18:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"71
-[; ;main.c: 71:     while (1)
+"35
+[; ;main.c: 35:     while (1)
 [e :U 1030 ]
-"72
-[; ;main.c: 72:     {
+"36
+[; ;main.c: 36:     {
 {
-"73
-[; ;main.c: 73:         UART1_Command_INT();
+"37
+[; ;main.c: 37:         UART1_Command_INT();
 [e ( _UART1_Command_INT ..  ]
-"75
-[; ;main.c: 75:     }
+"39
+[; ;main.c: 39:     }
 }
 [e :U 1029 ]
 [e $U 1030  ]
 [e :U 1031 ]
-"76
-[; ;main.c: 76: }
+"40
+[; ;main.c: 40: }
 [e :UE 1028 ]
 }
