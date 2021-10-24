@@ -70,6 +70,8 @@ void display(char *p_input_arr){
         }
 
         SPI2_ExchangeByte(p_input_arr[i]); 
+        
+        
 
     }
     LATCH_SetLow();
